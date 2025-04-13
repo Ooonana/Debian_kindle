@@ -2,6 +2,7 @@
 Debian on kindle
 Debian Linux on Kindle Paperwhite 4
 
+This is beta! Use at your own risk!
 
 ill update packages and update kual when im done
 
@@ -128,6 +129,6 @@ Desktop uses IceWM, which is fast but basic
 
 Tested only on Kindle PW4
 
-There are many bugs; expect crashes and display glitches even in apt install consider asking ChatGPT if error occurs
+There are many bugs; expect crashes and display glitches even in apt install command. Consider asking ChatGPT if error occurs.
 (expected errors: dpkg related errors)
-
+If your kindle is bricked or shows error 2 or dosent boot, use ssh to recover
