@@ -62,7 +62,7 @@ USBNetworking for SSH access
 
 Download or create a Debian image:
 
-Use the release from your project or build one using QEMU and debootstrap
+Use the release from your project or build one using QEMU and debootstrap (i used debootstrap on my android tablet)
 
 Ensure the image is in ext3 format
 
