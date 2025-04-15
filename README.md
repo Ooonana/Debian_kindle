@@ -16,11 +16,13 @@ Kindle devices run a Linux-based OS with X11 capabilities. This setup utilizes t
 
 Quick Start
 
-Install KUAL Launcher: the debian kual .zip file
+1. Install KUAL Launcher: the debian kual .zip file
 
-extract debian.zip to /mnt/us on kindle
+2. extract debian.zip to /mnt/us on kindle
 
-Start Debian from the Launcher
+3. Copy conf file (press the button on top)
+
+4. Start Debian from the Launcher
 
 
 
