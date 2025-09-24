@@ -79,7 +79,7 @@ if you want to launch gui you need to mount to ext3 on kindle and make startgui.
 
 Ensure there’s at least 2GB free on /mnt/us:
 
-df -h /mnt/us
+`df -h /mnt/us`
 
 Transfer the debian.zip to /mnt/us:
 
@@ -87,14 +87,14 @@ scp -C debian.zip root@192.168.15.244:/mnt/us/
 
 Unzip it on the Kindle:
 
-cd /mnt/us
-unzip debian.zip
+`cd /mnt/us`
+`unzip debian.zip`
 
 Then copy debian.conf to the Upstart directory:
 
-mntroot rw
-cp /mnt/us/debian.conf /etc/upstart/
-mntroot ro
+`mntroot rw`
+`cp /mnt/us/debian.conf /etc/upstart/`
+`mntroot ro`
 
 
 ---
@@ -104,17 +104,17 @@ mntroot ro
 Option 1 – Manual (Good for debugging):
 In Kterm:
 
-cd /mnt/us
-sh debian.sh
+`cd /mnt/us`
+`sh debian.sh`
 
 This launches a Debian shell. From here, you can start the IceWM desktop using:
 
-sh startgui.sh
+`sh startgui.sh`
 
 Option 2 – Recommended (More stable):
 In Kterm:
 
-start debian
+`start debian`
 
 This directly launches the GUI using Upstart.
 
@@ -132,5 +132,5 @@ Desktop uses IceWM, which is fast but basic
 Tested only on Kindle PW4
 
 There are many bugs; expect crashes and display glitches even in apt install command. Consider asking ChatGPT if error occurs.
-(expected errors: dpkg related errors)
+(Known errors: dpkg related errors)
 If your kindle is bricked or shows error 2 or dosent boot, use ssh to recover
