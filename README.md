@@ -94,7 +94,7 @@ Then copy debian.conf to the Upstart directory:
 
 mntroot rw
 cp /mnt/us/debian.conf /etc/upstart/
-mntroot r
+mntroot ro
 
 
 ---
