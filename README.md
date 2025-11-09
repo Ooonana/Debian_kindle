@@ -18,7 +18,7 @@ Quick Start
 
 1. Install KUAL Launcher: the debian kual .zip file
 
-2. extract debian.zip to /mnt/us on kindle
+2. extract debian.zip to /mnt/us on kindle (This is the root directory of kindle usb. in here there will be documents folder, extentions folder, mrpackages folder as well as other files and folders.
 
 3. Copy conf file (press the button on top)
 
