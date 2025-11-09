@@ -30,7 +30,7 @@ Quick Start
 
 !!WARNING!!
 
-DO NOT connect your Kindle to a computer via USB while Debian is running unless USBNetworking is enabled. Debian’s root filesystem resides in /mnt/us, which is also the Kindle's USB storage area. Dual access can corrupt partition 4, possibly bricking the Kindle. Use the KUAL USBNetwork indicator to verify status before connecting.
+DO NOT connect your Kindle to a computer via USB while Debian is running unless USBNetworking is enabled. Debian’s root filesystem resides in /mnt/us/, which is also the Kindle's USB storage area. In this directory there are extentions, documents folder as well as other things. Dual access can corrupt partition 4, possibly bricking the Kindle. Use the KUAL USBNetwork indicator to verify status before connecting.
 
 
 ---
