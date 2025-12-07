@@ -4,6 +4,14 @@ Debian Linux on Kindle Paperwhite 4
 
 This is beta! Use at your own risk!
 
+TO:
+It has many bugs and errors 
+
+Deploy.sh mntroot to to mntroot rw . 
+Upgrade Debian to latest version 
+
+
+
 ill update packages and update kual when im done
 
 Here you find a set of utilities to get Debian Linux running on Kindle Paperwhite 4. This has only been tested on the Kindle PW4, and while it might work on other Kindle models with touchscreens and sufficient resources (at least 2GB free storage and 512MiB RAM), there’s no guarantee it will function properly.
