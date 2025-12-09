@@ -4,11 +4,10 @@ Debian Linux on Kindle Paperwhite 4
 
 This is beta! Use at your own risk!
 
-TO:
-It has many bugs and errors 
+TO DO:
+It has many bugs and errors -> fix
 
-Deploy.sh mntroot to to mntroot rw . 
-Upgrade Debian to latest version 
+Upgrade Debian to latest version (Currently bookworm)
 
 
 
