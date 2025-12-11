@@ -8,10 +8,10 @@ TO DO:
 It has many bugs and errors -> fix
 
 Upgrade Debian to latest version (Currently bookworm)
+(P.S. when debian14 comes out there will be apt issues. if that happens in the future (around mid 2026) change repo link)
 
 
-
-ill update packages and update kual when im done
+ill update Debian in further years when i get tired of android on my current kindle
 
 Here you find a set of utilities to get Debian Linux running on Kindle Paperwhite 4. This has only been tested on the Kindle PW4, and while it might work on other Kindle models with touchscreens and sufficient resources (at least 2GB free storage and 512MiB RAM), there’s no guarantee it will function properly.
 
